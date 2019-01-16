@@ -6,8 +6,7 @@ namespace Problem_1._Define_a_Class_Person
     {
         static void Main(string[] args)
         {
-           
-
+            Console.WriteLine("Hello");
         }
     }
 }
