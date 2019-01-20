@@ -2,16 +2,23 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Problem_1._Define_a_Class_Person
-{
+
     class Person
     {
         private string name;
-        private string age;
+        private int age;
 
-        public string Name { get; set; }
 
-        public string Age { get; set; }
+        public string Name
+        {
+            get { return this.name; }
+            set { this.name = value; }
+        }
+
+        public int Age
+        {
+            get { return age; }
+            set { this.age = value; }
+        }
 
     }
-}
