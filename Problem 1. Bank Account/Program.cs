@@ -1,20 +1,23 @@
 ﻿using System;
 
 
-    class Program
+class Program
+{
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            BankAccount acc = new BankAccount();
 
-            acc.Id = 1;
-            acc.Balance = 15;
 
-          var toString = acc.ToString();
-        
-    Console.WriteLine(toString);
+        BankAccount acc = new BankAccount();
 
-        }
+        acc.Id = 1;
+        acc.Deposit(15);
+        acc.Withdraw(10);
+
+
+        var toString = acc.ToString();
+
+        Console.WriteLine(toString);
+
     }
+}
 
- 

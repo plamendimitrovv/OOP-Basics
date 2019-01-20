@@ -29,11 +29,20 @@ public class BankAccount
 
     public void Withdraw(decimal amount)
     {
-        Balance -= amount;
+        if (Balance < amount)
+        {
+            Console.WriteLine("Insufficient balance");
+
+        }
+        else
+        {
+            Balance -= amount;
+        }
+        
     }
 
     public override string ToString()
     {
-        return $"Account {Id}, balance {Balance}";
+        return $"Account ID{Id}, balance {Balance:F2}";
     }
 }
