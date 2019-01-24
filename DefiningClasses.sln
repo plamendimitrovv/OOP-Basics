@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem 1. Define a Class Person", "Problem 1. Define a Class Person\Problem 1. Define a Class Person.csproj", "{3E6D0EE0-839B-4D47-A2B8-D4E1CF54CE28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.DefineaClassPerson", "Problem 1. Define a Class Person\1.DefineaClassPerson.csproj", "{3E6D0EE0-839B-4D47-A2B8-D4E1CF54CE28}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem1.BankAccount", "Problem 1. Bank Account\Problem1.BankAccount.csproj", "{381A5751-4BBC-4B28-A708-4892C3681B4F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem3.TestClient", "Problem3.TestClient\Problem3.TestClient.csproj", "{144EEAA4-CD45-4832-A2B2-C135AEFDD1CE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem4.PersonClass", "Problem4.PersonClass\Problem4.PersonClass.csproj", "{7F6D2552-B513-47C6-B178-A3EA3CA18FC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.CreatingConstructors", "Problem 2.CreatingConstructors\2.CreatingConstructors.csproj", "{B48651B1-5B7A-401A-A71E-AC20F9BEC2F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{7F6D2552-B513-47C6-B178-A3EA3CA18FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F6D2552-B513-47C6-B178-A3EA3CA18FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F6D2552-B513-47C6-B178-A3EA3CA18FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B48651B1-5B7A-401A-A71E-AC20F9BEC2F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48651B1-5B7A-401A-A71E-AC20F9BEC2F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48651B1-5B7A-401A-A71E-AC20F9BEC2F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48651B1-5B7A-401A-A71E-AC20F9BEC2F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

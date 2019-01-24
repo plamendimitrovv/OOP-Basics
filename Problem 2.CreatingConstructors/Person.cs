@@ -8,8 +8,23 @@ using System.Text;
         private string name;
         private int age;
 
+    public Person()
+    {
+        this.Name =  "No name";
+        this.age = 1; 
+    }
 
-        public string Name
+    public Person(int age):this()
+    {
+        this.Age = age;
+    }
+
+    public Person(string name, int age):this()
+    {
+        this.Name = name;
+    }
+
+    public string Name
         {
             get { return this.name; }
             set { this.name = value; }
