@@ -5,15 +5,17 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.DefineaClassPerson", "Problem 1. Define a Class Person\1.DefineaClassPerson.csproj", "{3E6D0EE0-839B-4D47-A2B8-D4E1CF54CE28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem1.BankAccount", "Problem 1. Bank Account\Problem1.BankAccount.csproj", "{381A5751-4BBC-4B28-A708-4892C3681B4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem1.BankAccount", "Problem 1. Bank Account\Problem1.BankAccount.csproj", "{381A5751-4BBC-4B28-A708-4892C3681B4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem3.TestClient", "Problem3.TestClient\Problem3.TestClient.csproj", "{144EEAA4-CD45-4832-A2B2-C135AEFDD1CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem3.TestClient", "Problem3.TestClient\Problem3.TestClient.csproj", "{144EEAA4-CD45-4832-A2B2-C135AEFDD1CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem4.PersonClass", "Problem4.PersonClass\Problem4.PersonClass.csproj", "{7F6D2552-B513-47C6-B178-A3EA3CA18FC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem4.PersonClass", "Problem4.PersonClass\Problem4.PersonClass.csproj", "{7F6D2552-B513-47C6-B178-A3EA3CA18FC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.CreatingConstructors", "Problem 2.CreatingConstructors\2.CreatingConstructors.csproj", "{B48651B1-5B7A-401A-A71E-AC20F9BEC2F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.CreatingConstructors", "Problem 2.CreatingConstructors\2.CreatingConstructors.csproj", "{B48651B1-5B7A-401A-A71E-AC20F9BEC2F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.OldestFamilyMember", "Problem3.Oldest Family Member\3.OldestFamilyMember.csproj", "{25812E93-4F14-43CD-AA33-F6105FEBB9E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.OldestFamilyMember", "Problem3.Oldest Family Member\3.OldestFamilyMember.csproj", "{25812E93-4F14-43CD-AA33-F6105FEBB9E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.OpinionPoll", "Problem4.Opinion Poll\4.OpinionPoll.csproj", "{D92390A7-8438-4BEC-90B4-B66FD3BB5D20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{25812E93-4F14-43CD-AA33-F6105FEBB9E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25812E93-4F14-43CD-AA33-F6105FEBB9E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25812E93-4F14-43CD-AA33-F6105FEBB9E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D92390A7-8438-4BEC-90B4-B66FD3BB5D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92390A7-8438-4BEC-90B4-B66FD3BB5D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92390A7-8438-4BEC-90B4-B66FD3BB5D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92390A7-8438-4BEC-90B4-B66FD3BB5D20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
