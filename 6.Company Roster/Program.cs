@@ -14,7 +14,11 @@ public class Program
         {
             string[] input = Console.ReadLine().Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
 
-            var employee = new Employee(input[0], decimal.Parse(input[1]), input[2], input[3]);
+            var employee = new Employee(
+                input[0],
+                decimal.Parse(input[1]),
+                input[2],
+                input[3]);
 
             if (input.Length > 4)
             {
@@ -36,10 +40,28 @@ public class Program
             }
 
             employees.Add(employee);
-
-
         }
 
+        var result = employees
+            .GroupBy(e => e.Department)
+            .Select(e => new
+            {
+                Department = e.Key,
+                AvgSalary = e.Average(emp => emp.Salary),
+                Empls = e.OrderByDescending(emp => emp.Salary)
+            })
+            .ToList()
+            .OrderByDescending(e => e.AvgSalary)
+            .FirstOrDefault();
+
+
+
+        Console.WriteLine($"Highest Average Salary: {result.Department}");
+
+        foreach (var empl in result.Empls)
+        {
+            Console.WriteLine($"{empl.Name} {empl.Salary:F2} {empl.Email} {empl.Age}");
+        }
     }
 
 }

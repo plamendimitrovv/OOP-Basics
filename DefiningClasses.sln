@@ -15,11 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.CreatingConstructors", "P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.OldestFamilyMember", "Problem3.Oldest Family Member\3.OldestFamilyMember.csproj", "{25812E93-4F14-43CD-AA33-F6105FEBB9E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.OpinionPoll", "Problem4.Opinion Poll\4.OpinionPoll.csproj", "{D92390A7-8438-4BEC-90B4-B66FD3BB5D20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.OpinionPoll", "Problem4.Opinion Poll\4.OpinionPoll.csproj", "{D92390A7-8438-4BEC-90B4-B66FD3BB5D20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.DateModifier", "5.Date Modifier\5.DateModifier.csproj", "{3569278F-E657-4CDE-9E3C-27E166418F6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.DateModifier", "5.Date Modifier\5.DateModifier.csproj", "{3569278F-E657-4CDE-9E3C-27E166418F6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.Company Roster", "6.Company Roster\6.Company Roster.csproj", "{4C216D8A-4192-4D4A-A15B-182A7B14DB2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6.CompanyRoster", "6.Company Roster\6.CompanyRoster.csproj", "{4C216D8A-4192-4D4A-A15B-182A7B14DB2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

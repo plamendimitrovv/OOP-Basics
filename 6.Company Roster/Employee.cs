@@ -12,15 +12,10 @@ public class Employee
     //private int age ;
 
     public string Name { get; set; }
-
     public decimal Salary { get; set; }
-
     public string Position { get; set; }
-
     public string Department { get; set; }
-
     public string Email { get; set; }
-
     public int Age { get; set; }
 
 
@@ -29,6 +24,7 @@ public class Employee
         this.Name = name;
         this.Salary = salary;
         this.Position = position;
+        this.Department = department;
         this.Age = -1;
         this.Email = "n/a";
     }
