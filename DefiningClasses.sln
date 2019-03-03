@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7.SpeedRacing", "7.SpeedRac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8.RawData", "8.RawData\8.RawData.csproj", "{F4E9F4DA-AC69-454C-80B9-76F98366C2B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.RectangleIntersection", "9.RectangleIntersection\9.RectangleIntersection.csproj", "{FD3C37D4-5253-42D7-B98B-C4F86BE65D5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9.RectangleIntersection", "9.RectangleIntersection\9.RectangleIntersection.csproj", "{FD3C37D4-5253-42D7-B98B-C4F86BE65D5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.CarSalesman", "10.CarSalesman\10.CarSalesman.csproj", "{C7B289AE-00E1-4651-A6DF-69879A6953CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{FD3C37D4-5253-42D7-B98B-C4F86BE65D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD3C37D4-5253-42D7-B98B-C4F86BE65D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD3C37D4-5253-42D7-B98B-C4F86BE65D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7B289AE-00E1-4651-A6DF-69879A6953CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7B289AE-00E1-4651-A6DF-69879A6953CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7B289AE-00E1-4651-A6DF-69879A6953CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7B289AE-00E1-4651-A6DF-69879A6953CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
