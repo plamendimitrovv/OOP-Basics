@@ -31,6 +31,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.CarSalesman", "10.CarSal
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Defining classes", "Defining classes", "{AF1E97C5-93F2-4FE9-B6D0-D50D447C9ACD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Encapsulation", "Encapsulation", "{C97FFB29-5378-4CD7-BE9C-B851CEC3B082}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.ClassBox", "1.Class Box\1.ClassBox.csproj", "{2E4261AE-B65D-470A-9723-559FAD78C507}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,6 +93,10 @@ Global
 		{C7B289AE-00E1-4651-A6DF-69879A6953CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7B289AE-00E1-4651-A6DF-69879A6953CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7B289AE-00E1-4651-A6DF-69879A6953CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E4261AE-B65D-470A-9723-559FAD78C507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4261AE-B65D-470A-9723-559FAD78C507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E4261AE-B65D-470A-9723-559FAD78C507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E4261AE-B65D-470A-9723-559FAD78C507}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -107,6 +115,7 @@ Global
 		{F4E9F4DA-AC69-454C-80B9-76F98366C2B1} = {AF1E97C5-93F2-4FE9-B6D0-D50D447C9ACD}
 		{FD3C37D4-5253-42D7-B98B-C4F86BE65D5D} = {AF1E97C5-93F2-4FE9-B6D0-D50D447C9ACD}
 		{C7B289AE-00E1-4651-A6DF-69879A6953CC} = {AF1E97C5-93F2-4FE9-B6D0-D50D447C9ACD}
+		{2E4261AE-B65D-470A-9723-559FAD78C507} = {C97FFB29-5378-4CD7-BE9C-B851CEC3B082}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5D956D54-8054-4B1E-AD6A-DF52732D3ADB}
