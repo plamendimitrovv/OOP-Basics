@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.ClassBox", "1.Class Box\1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.ClassBoxDataValidation", "2.ClassBoxDataValidation\2.ClassBoxDataValidation.csproj", "{9D3A86C3-3265-4C4B-B5F6-06FE67A70C38}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.AnimalFarm", "..\..\..\Desktop\softUni\C# OOP Basics февруари 2018\AnimalFarm\AnimalFarm\3.AnimalFarm.csproj", "{AC57E846-2686-459F-9EDB-C9FAAF38F4EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +105,10 @@ Global
 		{9D3A86C3-3265-4C4B-B5F6-06FE67A70C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D3A86C3-3265-4C4B-B5F6-06FE67A70C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D3A86C3-3265-4C4B-B5F6-06FE67A70C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC57E846-2686-459F-9EDB-C9FAAF38F4EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC57E846-2686-459F-9EDB-C9FAAF38F4EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC57E846-2686-459F-9EDB-C9FAAF38F4EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC57E846-2686-459F-9EDB-C9FAAF38F4EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
