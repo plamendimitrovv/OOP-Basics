@@ -12,11 +12,12 @@ public class Person
 
     public Person(string name, decimal money)
     {
-        this.Name = name;
-        this.Money = money;
+        Name = name;
+        Money = money;
+        bagOfProducts = new List<Product>();
     }
 
-    public List<Product> Products
+    public List<Product> BagOfProducts
     {
         get { return bagOfProducts; }
         set { bagOfProducts = value; }
@@ -28,9 +29,9 @@ public class Person
         get { return money; }
         set
         {
-            if (money < 0)
+            if (value < 0)
             {
-                throw new Exception("Money cannot be negative");
+                throw new ArgumentException("Money cannot be negative");
             }
             else
             {
@@ -45,9 +46,9 @@ public class Person
         get { return name; }
         set
         {
-            if (string.IsNullOrWhiteSpace(name))
+            if (string.IsNullOrWhiteSpace(value))
             {
-                throw new Exception("Name cannot be empty");
+                throw new ArgumentException("Name cannot be empty");
             }
             else
             {

@@ -25,8 +25,8 @@ class Program
         for (int i = 0; i < allproducts.Length; i++)
         {
             string[] productInfo = allproducts[i].Split(new[] { "=" }, StringSplitOptions.RemoveEmptyEntries);
-            var productName = allproducts[0].ToString();
-            var productCost = decimal.Parse(allproducts[1]);
+            var productName = productInfo[0];
+            var productCost = decimal.Parse(productInfo[1]);
             Product product = new Product(productName, productCost);
             products.Add(product);
         }
@@ -44,7 +44,7 @@ class Program
 
             if (currentPerson.Money < currentProduct.Cost)
             {
-                Console.WriteLine($"{personName} can't affort {productName}");
+                Console.WriteLine($"{personName} can't afford {productName}");
             }
             else
             {
@@ -53,7 +53,7 @@ class Program
                 foreach (var person in people.Where(p => p.Name == personName))
                 {
                     person.Money = currentPerson.Money;
-                    person.Products.Add(currentProduct);
+                    person.BagOfProducts.Add(currentProduct);
                 }
 
                 Console.WriteLine($"{personName} bought {productName}");

@@ -10,8 +10,8 @@ public class Product
 
     public Product(string name, decimal cost)
     {
-        this.Name = name;
-        this.Cost = cost;
+        Name = name;
+        Cost = cost;
     }
 
     public decimal Cost
@@ -48,6 +48,11 @@ public class Product
             }
 
         }
+    }
+
+    public override string ToString()
+    {
+        return Name;
     }
 }
 
