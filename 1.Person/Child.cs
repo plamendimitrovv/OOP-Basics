@@ -5,7 +5,7 @@ using System.Text;
 
 public class Child : Person
 {
-    public Child(string name, int age) : base(name,age)
+    public Child(string name, int age) : base(name, age)
     {
     }
 
@@ -26,20 +26,20 @@ public class Child : Person
         }
     }
 
-    public override string Name
-    {
-        get => base.Name;
-        set
-        {
-            if (value.Length <3)
-            {
-                throw new ArgumentException("Name's length should not be less than 3 symbols!");
-            }
+    //public override string Name
+    //{
+    //    get => base.Name;
+    //    set
+    //    {
+    //        if (value.Length <3)
+    //        {
+    //            throw new ArgumentException("Name's length should not be less than 3 symbols!");
+    //        }
 
-            base.Name = value;
-        }
-        
-    }
+    //        base.Name = value;
+    //    }
+
+    //}
 }
 
 
