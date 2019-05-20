@@ -45,15 +45,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inheritance", "Inheritance"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.Person", "1.Person\1.Person.csproj", "{189A8F2A-ED03-47D8-979F-AEA697ACD542}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.SingleInheritance", "1.SingleInheritance\1.SingleInheritance.csproj", "{7FF5CE71-BA9A-43FD-9E91-27625805529B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.SingleInheritance", "1.SingleInheritance\1.SingleInheritance.csproj", "{7FF5CE71-BA9A-43FD-9E91-27625805529B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.MultipleInheritance", "2.MultipleInheritance\2.MultipleInheritance.csproj", "{345AF104-39F7-470E-BEE3-D7A5D5F27A38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.HierarchicalInheritance", "3.HierarchicalInheritance\3.HierarchicalInheritance.csproj", "{1C022FC8-ADE2-4D0E-8345-8CEA6CC51CEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.HierarchicalInheritance", "3.HierarchicalInheritance\3.HierarchicalInheritance.csproj", "{1C022FC8-ADE2-4D0E-8345-8CEA6CC51CEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.RandomList", "4.RandomList\4.RandomList.csproj", "{3BA27939-3BCD-4F10-BCFE-3474B6268D83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.RandomList", "4.RandomList\4.RandomList.csproj", "{3BA27939-3BCD-4F10-BCFE-3474B6268D83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.BookShop", "2.Book Shop\2.BookShop.csproj", "{4DCC3459-3F3D-4BF3-96D0-20A9A34C49E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.BookShop", "2.Book Shop\2.BookShop.csproj", "{4DCC3459-3F3D-4BF3-96D0-20A9A34C49E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Mankind", "3.Mankind\3.Mankind.csproj", "{BBFE21A8-E957-4510-994A-BB357F550F5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{4DCC3459-3F3D-4BF3-96D0-20A9A34C49E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DCC3459-3F3D-4BF3-96D0-20A9A34C49E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DCC3459-3F3D-4BF3-96D0-20A9A34C49E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBFE21A8-E957-4510-994A-BB357F550F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBFE21A8-E957-4510-994A-BB357F550F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBFE21A8-E957-4510-994A-BB357F550F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBFE21A8-E957-4510-994A-BB357F550F5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -181,6 +187,7 @@ Global
 		{1C022FC8-ADE2-4D0E-8345-8CEA6CC51CEF} = {4D90B7F7-8815-4922-86B0-5B39CA3F9A9F}
 		{3BA27939-3BCD-4F10-BCFE-3474B6268D83} = {4D90B7F7-8815-4922-86B0-5B39CA3F9A9F}
 		{4DCC3459-3F3D-4BF3-96D0-20A9A34C49E3} = {4D90B7F7-8815-4922-86B0-5B39CA3F9A9F}
+		{BBFE21A8-E957-4510-994A-BB357F550F5E} = {4D90B7F7-8815-4922-86B0-5B39CA3F9A9F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5D956D54-8054-4B1E-AD6A-DF52732D3ADB}
