@@ -21,12 +21,12 @@ public class Human
         {
             if (value.Length < 3)
             {
-                throw new ArgumentException("Expected length at least 4 symbols! Argument: firstName");
+                throw new ArgumentException("Expected length at least 4 symbols! Argument: lastName");
             }
 
             if (!Char.IsUpper(value[0]))
             {
-                throw new ArgumentException("Expected upper case letter! Argument: firstName");
+                throw new ArgumentException("Expected upper case letter! Argument: lastName");
             }
 
             lastName = value;
@@ -37,7 +37,18 @@ public class Human
     public string FirstName
     {
         get { return firstName; }
-        set { firstName = value; }
+        set
+        {
+            if (!Char.IsUpper(value[0]))
+            {
+                throw new ArgumentException("Expected upper case letter! Argument: firstName");
+            }
+            if (value.Length < 3)
+            {
+                throw new ArgumentException("Expected length at least 4 symbols! Argument: firstName");
+            }
+            firstName = value;
+        }
     }
 
 }
