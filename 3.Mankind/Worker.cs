@@ -5,20 +5,55 @@ using System.Text;
 
 public class Worker : Human
 {
-    private double weekSalary;
-    private double workingHoursDay;
+    private decimal weekSalary;
+    private decimal workingHoursDay;
 
-    public double WorkingHoursDay
+    public Worker(string firstName, string lastName, decimal weekSalary, decimal workingHoursDay)
+        : base(firstName, lastName)
+    {
+        WorkingHoursDay = workingHoursDay;
+        WeekSalary = weekSalary;
+    }
+
+    public decimal WorkingHoursDay
     {
         get { return workingHoursDay; }
-        set { workingHoursDay = value; }
+        set
+        {
+            if (value < 1 || value > 12)
+            {
+                throw new ArgumentException("Expected value mismatch! Argument: workHoursPerDay");
+            }
+            workingHoursDay = value;
+        }
     }
 
 
-    public double WeekSalary
+    public decimal WeekSalary
     {
         get { return weekSalary; }
-        set { weekSalary = value; }
+        set
+        {
+            if (value <= 10)
+            {
+                throw new ArgumentException("Expected value mismatch! Argument: weekSalary");
+            }
+            weekSalary = value;
+        }
+    }
+
+    public decimal SalaryPerHour()
+    {
+        return (WeekSalary / 5) / WorkingHoursDay;
+    }
+
+    public override string ToString()
+    {
+        return $@"First Name: {FirstName} 
+Last Name: {LastName} 
+Week Salary: {WeekSalary:F2} 
+Hours per day: {WorkingHoursDay:F2}
+Salary per hour: {(SalaryPerHour()):F2}";
     }
 
 }

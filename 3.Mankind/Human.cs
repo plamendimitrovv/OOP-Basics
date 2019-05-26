@@ -8,10 +8,10 @@ public class Human
     private string firstName;
     private string lastName;
 
-    public Human(string lastName, string firstName)
+    public Human(string firstName, string lastName)
     {
-        LastName = lastName;
-        FirstName = firstName;
+        this.LastName = lastName;
+        this.FirstName = firstName;
     }
 
     public string LastName
@@ -19,7 +19,7 @@ public class Human
         get { return lastName; }
         set
         {
-            if (value.Length < 3)
+            if (value.Length <= 2)
             {
                 throw new ArgumentException("Expected length at least 4 symbols! Argument: lastName");
             }
@@ -43,7 +43,7 @@ public class Human
             {
                 throw new ArgumentException("Expected upper case letter! Argument: firstName");
             }
-            if (value.Length < 3)
+            if (value.Length <= 3)
             {
                 throw new ArgumentException("Expected length at least 4 symbols! Argument: firstName");
             }
