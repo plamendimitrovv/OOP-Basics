@@ -5,7 +5,11 @@ public class Ferrari : ICar
     public Ferrari(string driverName)
     {
         DriverName = driverName;
-        this.Model = "488-Spider";
+        Model = "488-Spider";
+    }
+
+    public Ferrari()
+    {
     }
 
     public string DriverName { get; set; }
@@ -13,15 +17,15 @@ public class Ferrari : ICar
 
     public string GasPedal()
     {
-        return ("Zadu6avam sA!");
+        return "Zadu6avam sA!";
     }
 
     public string UseBrakes()
     {
-        return ("Brakes");
+        return "Brakes!";
     }
 
-    public string ToStirng()
+    public override string ToString()
     {
         return $"{this.Model}/{this.UseBrakes()}/{this.GasPedal()}/{this.DriverName}";
     }
