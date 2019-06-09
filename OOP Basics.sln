@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.MultipleImplementation", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Ferrari", "3.Ferrari\3.Ferrari.csproj", "{D4E9EB35-2915-4309-9E21-00E9DB9C052B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Telephony", "4.Telephony\4.Telephony.csproj", "{74E680BC-37DF-4A30-9FC8-F84C8F028616}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -191,6 +193,10 @@ Global
 		{D4E9EB35-2915-4309-9E21-00E9DB9C052B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4E9EB35-2915-4309-9E21-00E9DB9C052B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4E9EB35-2915-4309-9E21-00E9DB9C052B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74E680BC-37DF-4A30-9FC8-F84C8F028616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E680BC-37DF-4A30-9FC8-F84C8F028616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E680BC-37DF-4A30-9FC8-F84C8F028616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E680BC-37DF-4A30-9FC8-F84C8F028616}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -225,6 +231,7 @@ Global
 		{6853477C-C42E-4950-A089-2970B4B27DEA} = {ED0F7BD3-C286-44DE-938D-553383C38423}
 		{BD785B92-7396-4F3D-AFF7-8C80FA57E5E4} = {ED0F7BD3-C286-44DE-938D-553383C38423}
 		{D4E9EB35-2915-4309-9E21-00E9DB9C052B} = {ED0F7BD3-C286-44DE-938D-553383C38423}
+		{74E680BC-37DF-4A30-9FC8-F84C8F028616} = {ED0F7BD3-C286-44DE-938D-553383C38423}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5D956D54-8054-4B1E-AD6A-DF52732D3ADB}
