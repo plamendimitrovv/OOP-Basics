@@ -59,19 +59,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.Mankind", "3.Mankind\3.Ma
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces and Abstraction", "Interfaces and Abstraction", "{ED0F7BD3-C286-44DE-938D-553383C38423}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Shapes", "1.Shapes\1.Shapes.csproj", "{1F150A32-AA46-4F8B-ADB0-BBFEBE0B3A70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.Shapes", "1.Shapes\1.Shapes.csproj", "{1F150A32-AA46-4F8B-ADB0-BBFEBE0B3A70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.Cars", "2.Cars\2.Cars.csproj", "{426E6590-AF05-4B96-9AEF-0FB6BDE66C7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.Cars", "2.Cars\2.Cars.csproj", "{426E6590-AF05-4B96-9AEF-0FB6BDE66C7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.DefineAnInterfaceIPerson", "1.DefineAnInterfaceIPerson\1.DefineAnInterfaceIPerson.csproj", "{6853477C-C42E-4950-A089-2970B4B27DEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.DefineAnInterfaceIPerson", "1.DefineAnInterfaceIPerson\1.DefineAnInterfaceIPerson.csproj", "{6853477C-C42E-4950-A089-2970B4B27DEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.MultipleImplementation", "2.MultipleImplementation\2.MultipleImplementation.csproj", "{BD785B92-7396-4F3D-AFF7-8C80FA57E5E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.MultipleImplementation", "2.MultipleImplementation\2.MultipleImplementation.csproj", "{BD785B92-7396-4F3D-AFF7-8C80FA57E5E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Ferrari", "3.Ferrari\3.Ferrari.csproj", "{D4E9EB35-2915-4309-9E21-00E9DB9C052B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.Ferrari", "3.Ferrari\3.Ferrari.csproj", "{D4E9EB35-2915-4309-9E21-00E9DB9C052B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Telephony", "4.Telephony\4.Telephony.csproj", "{74E680BC-37DF-4A30-9FC8-F84C8F028616}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.Telephony", "4.Telephony\4.Telephony.csproj", "{74E680BC-37DF-4A30-9FC8-F84C8F028616}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.Border Control", "5.Border Control\5.Border Control.csproj", "{894EB2A3-DDA2-47F2-AE78-F93C10C34AAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.BorderControl", "5.Border Control\5.BorderControl.csproj", "{894EB2A3-DDA2-47F2-AE78-F93C10C34AAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
