@@ -73,6 +73,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.Telephony", "4.Telephony\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.BorderControl", "5.Border Control\5.BorderControl.csproj", "{894EB2A3-DDA2-47F2-AE78-F93C10C34AAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.BirthdayCelebrations", "6.BirthdayCelebrations\6.BirthdayCelebrations.csproj", "{AB0F82BD-FA4D-4252-8886-8F9C64C3EB17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -203,6 +205,10 @@ Global
 		{894EB2A3-DDA2-47F2-AE78-F93C10C34AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{894EB2A3-DDA2-47F2-AE78-F93C10C34AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{894EB2A3-DDA2-47F2-AE78-F93C10C34AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB0F82BD-FA4D-4252-8886-8F9C64C3EB17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB0F82BD-FA4D-4252-8886-8F9C64C3EB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB0F82BD-FA4D-4252-8886-8F9C64C3EB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB0F82BD-FA4D-4252-8886-8F9C64C3EB17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -239,6 +245,7 @@ Global
 		{D4E9EB35-2915-4309-9E21-00E9DB9C052B} = {ED0F7BD3-C286-44DE-938D-553383C38423}
 		{74E680BC-37DF-4A30-9FC8-F84C8F028616} = {ED0F7BD3-C286-44DE-938D-553383C38423}
 		{894EB2A3-DDA2-47F2-AE78-F93C10C34AAA} = {ED0F7BD3-C286-44DE-938D-553383C38423}
+		{AB0F82BD-FA4D-4252-8886-8F9C64C3EB17} = {ED0F7BD3-C286-44DE-938D-553383C38423}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5D956D54-8054-4B1E-AD6A-DF52732D3ADB}
