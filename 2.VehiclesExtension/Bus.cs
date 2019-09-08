@@ -4,7 +4,8 @@ using System.Text;
 
 public class Bus : Vehicle
 {
-    public Bus(double fuelQuantity, double fuelConsumptionPerKm, double tankCapacity) : base(fuelQuantity, fuelConsumptionPerKm, tankCapacity)
+    public Bus(double fuelQuantity, double fuelConsumptionPerKm, double tankCapacity)
+        : base(fuelQuantity, fuelConsumptionPerKm, tankCapacity)
     {
 
     }

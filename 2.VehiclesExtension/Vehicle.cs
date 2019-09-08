@@ -6,12 +6,12 @@ using System.Text;
 public abstract class Vehicle : IVehicle
 {
     public const string InsufficientFuelErrorMessage = "{0} needs refueling";
-    public const string FuelAmoungError = "Fuel must be a positive number";
+    public const string FuelAmountError = "Fuel must be a positive number";
     public const string ExessFuelErrorMessage = "Cannot fit {0} fuel in the tank";
     public const double carACExtraConsumption = 0.9;
     public const double truckACExtraConsumption = 1.6;
     public const double busACExtraConsumption = 1.4;
-    public const double FuelLossRatio = 0.95; 
+    public const double FuelLossRatio = 0.95;
 
     private double fuelQuantity;
     private double fuelConsumptionPerKm;
@@ -24,7 +24,7 @@ public abstract class Vehicle : IVehicle
     {
         this.FuelQuantity = fuelQuantity;
         this.FuelConsumptionPerKm = fuelConsumptionPerKm;
-        this.DistanceDriven = 0;
+        //this.DistanceDriven = 0;
         this.TankCapacity = tankCapacity;
     }
 
@@ -52,17 +52,17 @@ public abstract class Vehicle : IVehicle
         {
             if (value <= 0)
             {
-                throw new ArgumentException(FuelAmoungError);
+                throw new ArgumentException(FuelAmountError);
             }
             if (value > this.TankCapacity)
             {
-                fuelQuantity = 0; 
+                fuelQuantity = 0;
             }
             else
             {
                 fuelQuantity = value;
             }
-            
+
         }
     }
 
@@ -74,13 +74,15 @@ public abstract class Vehicle : IVehicle
 
     public virtual void Drive(double distance)
     {
-        if (FuelQuantity / FuelConsumptionPerKm < distance)
+        var fuelNeeded = distance * FuelConsumptionPerKm;
+
+
+        if (fuelNeeded > FuelQuantity)
         {
-            throw new InvalidOperationException(string.Format(InsufficientFuelErrorMessage, this.GetType().Name));
+            throw new ArgumentException(string.Format(InsufficientFuelErrorMessage, this.GetType().Name));
         }
 
-        FuelQuantity = FuelQuantity - (distance * FuelConsumptionPerKm);
-        DistanceDriven = DistanceDriven + distance;
+        FuelQuantity -= fuelNeeded;
     }
 
     public virtual void Refuel(double amount)
@@ -88,12 +90,12 @@ public abstract class Vehicle : IVehicle
 
         if (amount <= 0)
         {
-            throw new ArgumentException(FuelAmoungError); 
+            throw new ArgumentException(FuelAmountError);
         }
 
-        else if (FuelQuantity + amount > TankCapacity)
+        if (FuelQuantity + amount > this.tankCapacity)
         {
-            throw new ArgumentException(string.Format(ExessFuelErrorMessage, amount)); 
+            throw new ArgumentException(string.Format(ExessFuelErrorMessage, amount));
         }
         else
         {

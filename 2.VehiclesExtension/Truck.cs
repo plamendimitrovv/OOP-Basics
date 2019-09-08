@@ -18,15 +18,15 @@ public class Truck : Vehicle
     {
         if (amount <= 0)
         {
-            throw new ArgumentException(FuelAmoungError);
+            throw new ArgumentException(FuelAmountError);
         }
 
-        if (FuelQuantity + amount * FuelLossRatio > TankCapacity)
+        if (this.FuelQuantity + amount * FuelLossRatio > this.TankCapacity)
         {
             throw new ArgumentException(string.Format(ExessFuelErrorMessage, amount));
         }
 
-        FuelQuantity += amount * FuelLossRatio; 
+        this.FuelQuantity += amount * FuelLossRatio; 
     }
 }
 
