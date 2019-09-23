@@ -73,13 +73,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.Telephony", "4.Telephony\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.BorderControl", "5.Border Control\5.BorderControl.csproj", "{894EB2A3-DDA2-47F2-AE78-F93C10C34AAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.BirthdayCelebrations", "6.BirthdayCelebrations\6.BirthdayCelebrations.csproj", "{AB0F82BD-FA4D-4252-8886-8F9C64C3EB17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6.BirthdayCelebrations", "6.BirthdayCelebrations\6.BirthdayCelebrations.csproj", "{AB0F82BD-FA4D-4252-8886-8F9C64C3EB17}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Polymorphism", "Polymorphism", "{2322779E-9825-41E6-A026-D28C546908C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Vehicles", "1.Vehicles\1.Vehicles.csproj", "{E5BA6E9C-9480-4F4A-B9FF-AD2A0D03C50C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.Vehicles", "1.Vehicles\1.Vehicles.csproj", "{E5BA6E9C-9480-4F4A-B9FF-AD2A0D03C50C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.VehiclesExtension", "2.VehiclesExtension\2.VehiclesExtension.csproj", "{2CE5224A-90F2-41FF-95DE-E43B38F0C2D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.VehiclesExtension", "2.VehiclesExtension\2.VehiclesExtension.csproj", "{2CE5224A-90F2-41FF-95DE-E43B38F0C2D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workshop", "Workshop", "{2504B8E2-7591-4774-954D-B9D332EC677C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forum.App", "..\..\..\Desktop\softUni\C# OOP Basics февруари 2018\Workshop\Workshop-Skeleton\Forum.App.csproj", "{092E53B5-CE1C-40F7-BDDB-145CFDD6C4B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -223,6 +227,10 @@ Global
 		{2CE5224A-90F2-41FF-95DE-E43B38F0C2D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CE5224A-90F2-41FF-95DE-E43B38F0C2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CE5224A-90F2-41FF-95DE-E43B38F0C2D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{092E53B5-CE1C-40F7-BDDB-145CFDD6C4B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092E53B5-CE1C-40F7-BDDB-145CFDD6C4B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092E53B5-CE1C-40F7-BDDB-145CFDD6C4B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092E53B5-CE1C-40F7-BDDB-145CFDD6C4B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -262,6 +270,7 @@ Global
 		{AB0F82BD-FA4D-4252-8886-8F9C64C3EB17} = {ED0F7BD3-C286-44DE-938D-553383C38423}
 		{E5BA6E9C-9480-4F4A-B9FF-AD2A0D03C50C} = {2322779E-9825-41E6-A026-D28C546908C0}
 		{2CE5224A-90F2-41FF-95DE-E43B38F0C2D4} = {2322779E-9825-41E6-A026-D28C546908C0}
+		{092E53B5-CE1C-40F7-BDDB-145CFDD6C4B8} = {2504B8E2-7591-4774-954D-B9D332EC677C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5D956D54-8054-4B1E-AD6A-DF52732D3ADB}
